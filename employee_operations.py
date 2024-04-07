@@ -37,6 +37,12 @@ def delete_employee():
     """
 
 def update_employee():
+    id = int(input(" enter the ID  of the employee to be update:")
+    for employee in employees:
+        if employee.id == id:
+           first_name = input("enter the new first name for the employee:")
+           last_name = input ("enter the new last name for the employee:")
+           date_of_birth = input("enter the new date of birth for the employee(YYY/MM/DD):")
     """
     firstnamee
 
