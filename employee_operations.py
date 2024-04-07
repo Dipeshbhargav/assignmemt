@@ -38,7 +38,7 @@ def delete_employee():
 
 def update_employee():
     """
-    firstname
+    firstnamee
 
     This function prompts the user to input the ID of the employee to be updated and
     allows the user to modify the employee's information such as name, department, or salary.
