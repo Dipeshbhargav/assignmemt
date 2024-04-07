@@ -21,8 +21,8 @@ def add_employee():
     """
 def delete_employee():
 
-    {"id": "001", "first_name": "John", "last_name": "Doe"},
-    {"id": "002", "first_name": "Alice", "last_name": "Smith"},
+    {"id": "001", "first_name": "John", "last_name": "Doe"}
+    {"id": "002", "first_name": "Alice", "last_name": "Smith"}
     {"id": "003", "first_name": "Bob", "last_name": "Johnson"} 
     {"id": "004", "first_name": "Mukul", "last_name": "Sharma"}
     {"id": "005", "first_name": "Sophia", "last_name": "Davis"}
