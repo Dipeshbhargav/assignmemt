@@ -21,8 +21,13 @@ def add_employee():
     """
 def delete_employee():
 
-    position = int(input("please enter employees position"))
-    firstName = int(input("please enter the employees firstname"))
+    first name = input("please enter the employee's firstname")
+    last_name  = input("please enter the emplyee 's lastname")
+    date_of_birth= input("please enter the employee's date of birth in YYY/MM/DD")
+    start_of_year = input("please enter the emplpoyee's starting year")
+    position = input("please enter the employee's position")
+    salary = input("please enter the employee's salary")
+
 
     """
     Delete Employee Function
