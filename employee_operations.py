@@ -5,13 +5,13 @@ This module provides functions for adding, deleting, and updating employee infor
 """
 
 def add_employee():
-
+    id = int(input("please enter the ID for the new employee:")
     firstName = input("please enter the employee's firstname")
     last_name = input("please enter the employee's lastname")
     date_of_birth = input("please enter the employee's date of birth in YYYY/MM/DD")
-    start_of_year = input("please enter the employee's starting year")
+    start_of_year = int(input("please enter the employee's starting year")
     position = input("please enter the employee's position")
-    salary = input("please enter the employee's salary")
+    salary = float(input("please enter the employee's salary")
 
     """
     Add Employee function
