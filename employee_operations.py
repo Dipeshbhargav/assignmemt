@@ -43,10 +43,24 @@ def update_employee():
            first_name = input("enter the new first name for the employee:")
            last_name = input ("enter the new last name for the employee:")
            date_of_birth = input("enter the new date of birth for the employee(YYY/MM/DD):")
-    """
-    firstnamee
+           start_of_year = int(input("enter the new start of year for the employee:"))
+           position= input("enter the new position for the employee:")
+           salary = float(input("enter the new salary for the employee:"))
 
-    This function prompts the user to input the ID of the employee to be updated and
+           employee.first_name= first_name
+           employee.last_nmae=last_name
+           employee.date_of_birth= date_of_birth
+           employee.start_of_year= start_of_year
+           employee.position= position
+           employee.salary = salary
+
+           print(f"employee with ID {ID} updated.")
+           return
+     print(f"No employee with ID{id} found in the system.")
+
+
+#update employee function
+   This function prompts the user to input the ID of the employee to be updated and
     allows the user to modify the employee's information such as name, department, or salary.
 
-    ""
+
