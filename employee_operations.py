@@ -48,7 +48,7 @@ def update_employee():
            salary = float(input("enter the new salary for the employee:"))
 
            employee.first_name= first_name
-           employee.last_nmae=last_name
+           employee.last_name=last_name
            employee.date_of_birth= date_of_birth
            employee.start_of_year= start_of_year
            employee.position= position
