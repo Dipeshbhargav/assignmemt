@@ -60,7 +60,14 @@ if__name__=="__main__":
    main()
 
 
-def main_menu()
+def main_menu():
+    """
+    Main Menu Function
+    Displays the main menu for the  employee management system and prompots the user for input.
+     Based on the user's choice, it calls the corresponding functions to perform actions such a
+    adding,deleting,or updating employee information,generating reports,orexiting the program.
+     """                                                                               
+                                                                                    
 while True:
     print("\nEmployee Management System")
     print("1. Add Employee")
