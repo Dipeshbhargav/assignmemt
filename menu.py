@@ -37,4 +37,26 @@ def generate_reports_menu():
     while True:
         print("\nGenerate Reports")
         print("1.List of Departments")
-        print("2.
+        print("2. List of all Employees")
+        print("3. Deparment Statistics")
+        print("4. Deparment Employee Details")
+        print("5. Back to main menu")
+
+        report_choice = input("Enter your choice:")
+
+        if report_choice == '1':
+            list_deparment()
+        elif report_choice == '2';
+             list_employees()
+        elif report_choice == '3';
+             average_age_and_salary_per_deparment()
+        elif report_choice == '4':
+            list_employees_per_deparment()
+        elif report_choice == '5':
+             break
+        else:
+            print("Invalid choice.please try again.")
+if__name__=="__main__":
+   main()
+
+        
