@@ -63,8 +63,7 @@ def update_employee():
      print(f"No employee with ID{id} found in the system.")
 
 
-#update employee function
-   This function prompts the user to input the ID of the employee to be updated and
-    allows the user to modify the employee's information such as name, department, or salary.
+
+
 
 
