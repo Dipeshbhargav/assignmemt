@@ -10,12 +10,6 @@ from .employee_operations import add_employee, delete_employee, update_employee
 from .report_generation import generate_reports
 
 def main_menu():
-    """
-    Main Menu Function
-    Displays the main menu for the Employee Management System and prompts the user for input.
-    Based on the user's choice, it calls the corresponding functions to perform actions such as
-    adding, deleting, or updating employee information, generating reports, or exiting the program.
-    """
     while True:
         print("\nEmployee Management System")
         print("1. Add Employee")
@@ -39,3 +33,8 @@ def main_menu():
             break
         else:
             print("Invalid choice. Please enter a valid option.")
+def generate_reports_menu():
+    while True:
+        print("\nGenerate Reports")
+        print("1.List of Departments")
+        print("2.
