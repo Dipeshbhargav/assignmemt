@@ -82,5 +82,10 @@ while True:
             generate_report()
         elif choice == 5:
             print("Exiting the program .Goodbye")
+            break
+        else:
+            print("Invalid choice. please enter a valid option")
+    else:
+        print("Invalid input. Please enter a number.")
             
         
