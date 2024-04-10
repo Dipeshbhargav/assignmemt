@@ -48,9 +48,9 @@ def get_departments():
 
 def get_employees():
     return [
-        {"id": 1, "name": "John Doe", "department": "Manager", "dob": "1980-05-15", "salary": 160000},
-        {"id": 2, "name": "Jane Smith", "department": "Engineer", "dob": "1975-12-20", "salary": 90000},
-        {"id": 3, "name": "Alice Johnson", "department": "Analyst", "dob": "1990-08-10", "salary": 75000},
+        {"id": 1, "name": "Mukul Sharma", "department": "Manager", "dob": "1980-05-15", "salary": 160000},
+        {"id": 2, "name": "Simran Kaur", "department": "Engineer", "dob": "1975-12-20", "salary": 90000},
+        {"id": 3, "name": "William Smith", "department": "Analyst", "dob": "1990-08-10", "salary": 75000},
     ]
 
 
