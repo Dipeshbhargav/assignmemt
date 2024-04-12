@@ -13,7 +13,14 @@ def read_employees():
     Returns:
         list: A list containing employee data read from the text file.
     """
+    employee_data = []
+     with open('employees.txt', 'r') as file:
+        for line in file:
+            employee = line.strip()
+            employee_data.append(employee)
+    return employee_data
 
+    
 
 def write_employees():
     """
