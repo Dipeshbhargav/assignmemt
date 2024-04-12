@@ -24,3 +24,6 @@ def write_employees():
     Parameters:
         employees_data (list): A list containing employee data to be written to the text file.
     """
+    with open('employees.txt','w')as file:
+        for employee in employees_data:
+            file.write(f"{employee}\n")
